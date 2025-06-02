@@ -3,6 +3,9 @@ package com.progresssoft.fxdealsimporter.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,10 +28,17 @@ public class Deal {
     @Id
     private String dealId;
 
-    @Column(nullable = false)
+
+    @Size(min = 3, max = 3)
+    @Pattern(regexp = "^[A-Z]{3}$", message = "Invalid format")
+    @Column(nullable = false ,length = 3)
+    @NotNull
     private String fromCurrencyCode;
 
-    @Column(nullable= false)
+    @Size(min = 3, max = 3)
+    @Pattern(regexp = "^[A-Z]{3}$", message = "Invalid format")
+    @Column(nullable = false ,length = 3)
+    @NotNull
     private String toCurrencyCode;
 
     @Column(nullable = false)
@@ -36,7 +46,9 @@ public class Deal {
     @CreatedDate
     private LocalDateTime dealTimestamp;
 
+    @Positive
     @Column(nullable = false)
+    @NotNull
     private BigDecimal dealAmount;
 
 
