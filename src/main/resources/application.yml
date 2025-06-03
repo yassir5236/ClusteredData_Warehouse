@@ -1,0 +1,32 @@
+valid:
+  currencies:
+    - USD
+    - EUR
+    - GBP
+    - JPY
+    - CHF
+    - CAD
+    - AUD
+    - NZD
+    - CNY
+    - SEK
+    - NOK
+    - DKK
+    - ZAR
+    - RUB
+    - INR
+    - BRL
+    - MXN
+    - SGD
+    - HKD
+    - KRW
+    - TRY
+    - PLN
+    - TWD
+    - THB
+    - MYR
+    - CZK
+    - HUF
+    - IDR
+    - SAR
+    - AED
