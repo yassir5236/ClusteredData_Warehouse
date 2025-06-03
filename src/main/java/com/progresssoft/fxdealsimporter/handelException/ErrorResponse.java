@@ -1,4 +1,4 @@
-package com.progresssoft.fxdealsimporter.HandelException;
+package com.progresssoft.fxdealsimporter.handelException;
 
 import java.time.LocalDateTime;
 

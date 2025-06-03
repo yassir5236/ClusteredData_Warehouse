@@ -1,6 +1,6 @@
 package com.progresssoft.fxdealsimporter.service;
 
-import com.progresssoft.fxdealsimporter.HandelException.RequestAlreadyExistException;
+import com.progresssoft.fxdealsimporter.handelException.RequestAlreadyExistException;
 import com.progresssoft.fxdealsimporter.dto.DealRequestDto;
 import com.progresssoft.fxdealsimporter.dto.DealResponseDto;
 import com.progresssoft.fxdealsimporter.mapper.DealMapper;

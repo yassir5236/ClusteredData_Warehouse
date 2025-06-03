@@ -3,8 +3,8 @@ package com.progresssoft.fxdealsimporter.service;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-import com.progresssoft.fxdealsimporter.HandelException.CurrencyNotFoundException;
-import com.progresssoft.fxdealsimporter.HandelException.InvalidCurrencyException;
+import com.progresssoft.fxdealsimporter.handelException.CurrencyNotFoundException;
+import com.progresssoft.fxdealsimporter.handelException.InvalidCurrencyException;
 import com.progresssoft.fxdealsimporter.config.CurrencyProperties;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

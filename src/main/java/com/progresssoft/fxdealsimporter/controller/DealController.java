@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/deals")
 @RequiredArgsConstructor
-@Slf4j
+
 public class DealController {
     private final DealService service;
 

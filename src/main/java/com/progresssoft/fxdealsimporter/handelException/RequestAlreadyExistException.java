@@ -1,4 +1,4 @@
-package com.progresssoft.fxdealsimporter.HandelException;
+package com.progresssoft.fxdealsimporter.handelException;
 
 public class RequestAlreadyExistException extends RuntimeException{
     public RequestAlreadyExistException ( String message) {

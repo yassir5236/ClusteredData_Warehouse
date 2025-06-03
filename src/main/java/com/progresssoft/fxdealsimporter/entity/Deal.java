@@ -29,13 +29,11 @@ public class Deal {
     private String dealId;
 
 
-    @Size(min = 3, max = 3)
     @Pattern(regexp = "^[A-Z]{3}$", message = "Invalid format")
     @Column(nullable = false ,length = 3)
     @NotNull
     private String fromCurrencyCode;
 
-    @Size(min = 3, max = 3)
     @Pattern(regexp = "^[A-Z]{3}$", message = "Invalid format")
     @Column(nullable = false ,length = 3)
     @NotNull

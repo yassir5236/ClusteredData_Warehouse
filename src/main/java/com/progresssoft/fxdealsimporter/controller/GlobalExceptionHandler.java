@@ -1,10 +1,10 @@
 package com.progresssoft.fxdealsimporter.controller;
 
 
-import com.progresssoft.fxdealsimporter.HandelException.CurrencyNotFoundException;
-import com.progresssoft.fxdealsimporter.HandelException.ErrorResponse;
-import com.progresssoft.fxdealsimporter.HandelException.InvalidCurrencyException;
-import com.progresssoft.fxdealsimporter.HandelException.RequestAlreadyExistException;
+import com.progresssoft.fxdealsimporter.handelException.CurrencyNotFoundException;
+import com.progresssoft.fxdealsimporter.handelException.ErrorResponse;
+import com.progresssoft.fxdealsimporter.handelException.InvalidCurrencyException;
+import com.progresssoft.fxdealsimporter.handelException.RequestAlreadyExistException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
